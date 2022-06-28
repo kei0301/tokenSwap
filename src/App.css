@@ -1,0 +1,97 @@
+body {
+  background: url('../public/wrapper.ce3cb684.png');
+  background-color: #101922 !important;
+  height:100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: Pancake !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div,h1,h2,h3,h4,h5,h6,p,span,a,button{
+  font-family: Pancake;
+}
+
+.my_header{
+  background-color: #b90ee2 !important;
+}
+
+.textField div input{
+  color:#b90ee2 !important;
+  font-family: Pancake;
+}
+
+.textField div fieldset{
+  border: 0px;
+}
+
+.tokenSelect fieldset{
+  border: 0px !important;
+}
+
+.tokenSelect div{
+  color:#b90ee2;
+  font-family: Pancake;
+  padding-right: 0px !important;
+}
+
+@font-face {
+    font-family: Pancake;
+    src: url("../public/font.woff2") format("opentype");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tokenlist{
+    width:100% !important
+  }
+  .tokenlist_list{
+    display:none !important
+  }
+  .tokenlist_mlist{
+    display:block !important
+  }
+  .mw_50{
+    min-width: 70px !important;
+    text-align: left;
+  }
+}
